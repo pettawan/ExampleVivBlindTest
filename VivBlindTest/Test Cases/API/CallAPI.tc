@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Still can not find a way to handle it.
+- not work</description>
+   <name>CallAPI</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>28563c63-8870-47d6-8e7b-f5951bbc4e03</testCaseGuid>
+</TestCaseEntity>

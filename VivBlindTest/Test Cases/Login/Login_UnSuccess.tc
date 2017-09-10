@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Use to login to the system.</description>
+   <name>Login_UnSuccess</name>
+   <tag>Login</tag>
+   <comment></comment>
+   <testCaseGuid>26d102f9-dcc4-467c-893e-31eed324438e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1d248ee5-abbf-49b3-9668-6907a9e4aa2d</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3aa09065-a634-4a08-bbaf-f3ea559cc09b</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

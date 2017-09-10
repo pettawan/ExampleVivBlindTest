@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login,Chrome 60.0.3112.113,,2560-09-10 15:38:31,2560-09-10 15:38:55,24.028s,PASSED
+,,,,,,
+Test Cases/Login/Login_Success,Chrome 60.0.3112.113,Use to login to the system.,2560-09-10 15:38:31,2560-09-10 15:38:45,14.084s,PASSED
+"Statement - username = ""pettawan09@gmail.com""",Chrome 60.0.3112.113,,2560-09-10 15:38:33,2560-09-10 15:38:33,0.005s,PASSED
+"Statement - password = ""123456789""",Chrome 60.0.3112.113,,2560-09-10 15:38:33,2560-09-10 15:38:33,0.005s,PASSED
+openBrowser,Chrome 60.0.3112.113,Open browser and navigate,2560-09-10 15:38:33,2560-09-10 15:38:37,4.887s,PASSED
+navigateToUrl,Chrome 60.0.3112.113,,2560-09-10 15:38:37,2560-09-10 15:38:41,3.296s,PASSED
+maximizeWindow,Chrome 60.0.3112.113,,2560-09-10 15:38:41,2560-09-10 15:38:42,1.180s,PASSED
+waitForPageLoad,Chrome 60.0.3112.113,,2560-09-10 15:38:42,2560-09-10 15:38:42,0.118s,PASSED
+setText,Chrome 60.0.3112.113,Input username,2560-09-10 15:38:42,2560-09-10 15:38:43,0.531s,PASSED
+setText,Chrome 60.0.3112.113,Input password,2560-09-10 15:38:43,2560-09-10 15:38:43,0.310s,PASSED
+click,Chrome 60.0.3112.113,click submit button login,2560-09-10 15:38:43,2560-09-10 15:38:44,1.081s,PASSED
+waitForPageLoad,Chrome 60.0.3112.113,,2560-09-10 15:38:44,2560-09-10 15:38:44,0.019s,PASSED
+Statement - checklogin = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Home_Page/link_logout)),Chrome 60.0.3112.113,check when login success,2560-09-10 15:38:44,2560-09-10 15:38:44,0.130s,PASSED
+verifyMatch,Chrome 60.0.3112.113,,2560-09-10 15:38:44,2560-09-10 15:38:44,0.046s,PASSED
+closeBrowser,Chrome 60.0.3112.113,Close browser,2560-09-10 15:38:44,2560-09-10 15:38:45,1.206s,PASSED
+,,,,,,
+Test Cases/Login/Login_UnSuccess,Chrome 60.0.3112.113,Use to login to the system.,2560-09-10 15:38:45,2560-09-10 15:38:55,9.270s,PASSED
+"Statement - username = ""pettawan09@gmail.com""",Chrome 60.0.3112.113,,2560-09-10 15:38:46,2560-09-10 15:38:46,0.001s,PASSED
+"Statement - password = ""987654321""",Chrome 60.0.3112.113,,2560-09-10 15:38:46,2560-09-10 15:38:46,0.004s,PASSED
+openBrowser,Chrome 60.0.3112.113,Open browser and navigate,2560-09-10 15:38:46,2560-09-10 15:38:48,2.153s,PASSED
+navigateToUrl,Chrome 60.0.3112.113,,2560-09-10 15:38:48,2560-09-10 15:38:51,2.688s,PASSED
+maximizeWindow,Chrome 60.0.3112.113,,2560-09-10 15:38:51,2560-09-10 15:38:52,1.155s,PASSED
+waitForPageLoad,Chrome 60.0.3112.113,,2560-09-10 15:38:52,2560-09-10 15:38:52,0.025s,PASSED
+setText,Chrome 60.0.3112.113,Input username,2560-09-10 15:38:52,2560-09-10 15:38:52,0.414s,PASSED
+setText,Chrome 60.0.3112.113,Input password,2560-09-10 15:38:52,2560-09-10 15:38:53,0.263s,PASSED
+click,Chrome 60.0.3112.113,click submit button login,2560-09-10 15:38:53,2560-09-10 15:38:53,0.894s,PASSED
+waitForPageLoad,Chrome 60.0.3112.113,,2560-09-10 15:38:53,2560-09-10 15:38:54,0.023s,PASSED
+Statement - checklogin = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login_Page/strong_Warning_Message)),Chrome 60.0.3112.113,check when login unsuccess,2560-09-10 15:38:54,2560-09-10 15:38:54,0.109s,PASSED
+verifyMatch,Chrome 60.0.3112.113,,2560-09-10 15:38:54,2560-09-10 15:38:54,0.003s,PASSED
+closeBrowser,Chrome 60.0.3112.113,Close browser,2560-09-10 15:38:54,2560-09-10 15:38:55,1.101s,PASSED

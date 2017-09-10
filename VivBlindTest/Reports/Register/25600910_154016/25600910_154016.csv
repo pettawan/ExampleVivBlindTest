@@ -1,0 +1,238 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Register,Chrome 60.0.3112.113,Used to test the registration system.,2560-09-10 15:40:20,2560-09-10 15:41:38,1m - 17.919s,PASSED
+,,,,,,
+Test Cases/Register/Check_Validate_Register,Chrome 60.0.3112.113,Used to check validate on the registration page.,2560-09-10 15:40:21,2560-09-10 15:40:38,17.712s,PASSED
+openBrowser,Chrome 60.0.3112.113,Open browser and navigate,2560-09-10 15:40:22,2560-09-10 15:40:26,4.156s,PASSED
+navigateToUrl,Chrome 60.0.3112.113,,2560-09-10 15:40:26,2560-09-10 15:40:30,3.145s,PASSED
+maximizeWindow,Chrome 60.0.3112.113,,2560-09-10 15:40:30,2560-09-10 15:40:31,1.166s,PASSED
+waitForPageLoad,Chrome 60.0.3112.113,,2560-09-10 15:40:31,2560-09-10 15:40:31,0.126s,PASSED
+focus,Chrome 60.0.3112.113,Click submit button,2560-09-10 15:40:31,2560-09-10 15:40:31,0.276s,PASSED
+click,Chrome 60.0.3112.113,,2560-09-10 15:40:31,2560-09-10 15:40:32,1.026s,PASSED
+waitForPageLoad,Chrome 60.0.3112.113,,2560-09-10 15:40:32,2560-09-10 15:40:32,0.026s,PASSED
+Statement - emailMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_Email)),Chrome 60.0.3112.113,Vaildate message after record,2560-09-10 15:40:32,2560-09-10 15:40:32,0.231s,PASSED
+verifyMatch,Chrome 60.0.3112.113,,2560-09-10 15:40:32,2560-09-10 15:40:32,0.041s,PASSED
+Statement - usernameMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_UserName)),Chrome 60.0.3112.113,,2560-09-10 15:40:32,2560-09-10 15:40:33,0.221s,PASSED
+verifyMatch,Chrome 60.0.3112.113,,2560-09-10 15:40:33,2560-09-10 15:40:33,0.003s,PASSED
+Statement - passwordMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_Password)),Chrome 60.0.3112.113,,2560-09-10 15:40:33,2560-09-10 15:40:33,0.228s,PASSED
+verifyMatch,Chrome 60.0.3112.113,,2560-09-10 15:40:33,2560-09-10 15:40:33,0.004s,PASSED
+Statement - confirmPasswordMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_ConfirmPassword)),Chrome 60.0.3112.113,,2560-09-10 15:40:33,2560-09-10 15:40:33,0.277s,PASSED
+verifyMatch,Chrome 60.0.3112.113,,2560-09-10 15:40:33,2560-09-10 15:40:33,0.004s,PASSED
+Statement - nameMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_Name)),Chrome 60.0.3112.113,,2560-09-10 15:40:33,2560-09-10 15:40:33,0.204s,PASSED
+verifyMatch,Chrome 60.0.3112.113,,2560-09-10 15:40:33,2560-09-10 15:40:33,0.003s,PASSED
+Statement - lastNameMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_LastNames)),Chrome 60.0.3112.113,,2560-09-10 15:40:33,2560-09-10 15:40:34,0.299s,PASSED
+verifyMatch,Chrome 60.0.3112.113,,2560-09-10 15:40:34,2560-09-10 15:40:34,0.006s,PASSED
+Statement - enNameMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_EnName)),Chrome 60.0.3112.113,,2560-09-10 15:40:34,2560-09-10 15:40:34,0.210s,PASSED
+verifyMatch,Chrome 60.0.3112.113,,2560-09-10 15:40:34,2560-09-10 15:40:34,0.003s,PASSED
+Statement - enLastNameMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_EnLastNames)),Chrome 60.0.3112.113,,2560-09-10 15:40:34,2560-09-10 15:40:34,0.269s,PASSED
+verifyMatch,Chrome 60.0.3112.113,,2560-09-10 15:40:34,2560-09-10 15:40:34,0.003s,PASSED
+Statement - idCardMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_IDCard)),Chrome 60.0.3112.113,,2560-09-10 15:40:34,2560-09-10 15:40:34,0.228s,PASSED
+verifyMatch,Chrome 60.0.3112.113,,2560-09-10 15:40:34,2560-09-10 15:40:34,0.020s,PASSED
+Statement - religionMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_Religion)),Chrome 60.0.3112.113,,2560-09-10 15:40:34,2560-09-10 15:40:35,0.254s,PASSED
+verifyMatch,Chrome 60.0.3112.113,,2560-09-10 15:40:35,2560-09-10 15:40:35,0.004s,PASSED
+Statement - educationMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_Education)),Chrome 60.0.3112.113,,2560-09-10 15:40:35,2560-09-10 15:40:35,0.338s,PASSED
+verifyMatch,Chrome 60.0.3112.113,,2560-09-10 15:40:35,2560-09-10 15:40:35,0.003s,PASSED
+Statement - careerMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_Career)),Chrome 60.0.3112.113,,2560-09-10 15:40:35,2560-09-10 15:40:35,0.341s,PASSED
+verifyMatch,Chrome 60.0.3112.113,,2560-09-10 15:40:35,2560-09-10 15:40:35,0.003s,PASSED
+Statement - numberMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_Number)),Chrome 60.0.3112.113,,2560-09-10 15:40:35,2560-09-10 15:40:36,0.271s,PASSED
+verifyMatch,Chrome 60.0.3112.113,,2560-09-10 15:40:36,2560-09-10 15:40:36,0.002s,PASSED
+Statement - provinceMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_Province)),Chrome 60.0.3112.113,,2560-09-10 15:40:36,2560-09-10 15:40:36,0.234s,PASSED
+verifyMatch,Chrome 60.0.3112.113,,2560-09-10 15:40:36,2560-09-10 15:40:36,0.004s,PASSED
+Statement - districtMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_District)),Chrome 60.0.3112.113,,2560-09-10 15:40:36,2560-09-10 15:40:36,0.247s,PASSED
+verifyMatch,Chrome 60.0.3112.113,,2560-09-10 15:40:36,2560-09-10 15:40:36,0.004s,PASSED
+Statement - placeMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_Place)),Chrome 60.0.3112.113,,2560-09-10 15:40:36,2560-09-10 15:40:36,0.233s,PASSED
+verifyMatch,Chrome 60.0.3112.113,,2560-09-10 15:40:36,2560-09-10 15:40:36,0.003s,PASSED
+Statement - zipCodeMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_ZipCode)),Chrome 60.0.3112.113,,2560-09-10 15:40:36,2560-09-10 15:40:37,0.218s,PASSED
+verifyMatch,Chrome 60.0.3112.113,,2560-09-10 15:40:37,2560-09-10 15:40:37,0.002s,PASSED
+Statement - statusMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_Status)),Chrome 60.0.3112.113,,2560-09-10 15:40:37,2560-09-10 15:40:37,0.220s,PASSED
+verifyMatch,Chrome 60.0.3112.113,,2560-09-10 15:40:37,2560-09-10 15:40:37,0.003s,PASSED
+Statement - phoneNumberMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_PhoneNumber)),Chrome 60.0.3112.113,,2560-09-10 15:40:37,2560-09-10 15:40:37,0.208s,PASSED
+verifyMatch,Chrome 60.0.3112.113,,2560-09-10 15:40:37,2560-09-10 15:40:37,0.002s,PASSED
+closeBrowser,Chrome 60.0.3112.113,Close browser,2560-09-10 15:40:37,2560-09-10 15:40:38,1.230s,PASSED
+,,,,,,
+Test Cases/Register/Register,Chrome 60.0.3112.113,Used to register for volunteers.,2560-09-10 15:40:38,2560-09-10 15:41:04,25.209s,PASSED
+Statement - length = 10,Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.002s,PASSED
+"Statement - pool = [(a..z), (A..Z), (0..9), ""-""].flatten()",Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.006s,PASSED
+Statement - random = new java.util.Random(java.lang.System.currentTimeMillis()),Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.007s,PASSED
+Statement - randomChars = (0..(length - 1)).collect({ -> ... }),Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.028s,PASSED
+Statement - randomString = randomChars.join(),Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.003s,PASSED
+Statement - rn = new java.util.Random(),Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.001s,PASSED
+"Statement - randomIdCard = """"",Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.000s,PASSED
+Statement - id = 0,Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.002s,PASSED
+"Statement - For ([i = 1, i <= 12, (i++)])",Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.019s,PASSED
+Statement - id = java.lang.Long.parseLong(randomIdCard),Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.008s,PASSED
+Statement - base = 100000000000,Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.000s,PASSED
+Statement - basenow = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.001s,PASSED
+Statement - sum = 0,Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.003s,PASSED
+"Statement - For ([i = 13, i > 1, (i--)])",Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.092s,PASSED
+Statement - checkbit = 11 - sum % 11 % 10,Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.001s,PASSED
+Statement - randomIdCard = randomIdCard + checkbit,Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.001s,PASSED
+"Statement - randomEmail = randomString + ""@gmail.com""",Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.000s,PASSED
+Statement - password = randomString,Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.001s,PASSED
+"Statement - name = ""อารัญ""",Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.000s,PASSED
+"Statement - lastName = ""หอมหวน""",Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.001s,PASSED
+Statement - en_Name = randomString,Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.002s,PASSED
+Statement - en_LastName = randomString,Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.002s,PASSED
+Statement - idCard = randomIdCard,Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.003s,PASSED
+"Statement - birthday = ""25/09/1991""",Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.010s,PASSED
+"Statement - religion = ""พุทธ""",Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.002s,PASSED
+"Statement - educational = ""ปริญญาตรี""",Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.001s,PASSED
+"Statement - career = ""รับราชการ""",Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.002s,PASSED
+"Statement - address_No = ""149/6""",Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.002s,PASSED
+"Statement - address_Moo = ""10""",Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.001s,PASSED
+"Statement - address_Road = ""สันทรายพร้าว""",Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.001s,PASSED
+"Statement - province = ""38""",Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.000s,PASSED
+"Statement - district = ""581""",Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.005s,PASSED
+"Statement - subdistrict = ""14039""",Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.001s,PASSED
+"Statement - address_ZipCode = ""50210""",Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.000s,PASSED
+"Statement - status_Edu_Work = ""กำลังทำงาน""",Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.001s,PASSED
+"Statement - address_All = ""บ้าน""",Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.001s,PASSED
+"Statement - phone = ""053354121""",Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.002s,PASSED
+"Statement - cell_Phone = ""0901255710""",Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.004s,PASSED
+"Statement - fax = ""085532111""",Chrome 60.0.3112.113,,2560-09-10 15:40:39,2560-09-10 15:40:39,0.001s,PASSED
+openBrowser,Chrome 60.0.3112.113,Open browser and navigate,2560-09-10 15:40:39,2560-09-10 15:40:41,2.351s,PASSED
+navigateToUrl,Chrome 60.0.3112.113,,2560-09-10 15:40:41,2560-09-10 15:40:44,2.670s,PASSED
+maximizeWindow,Chrome 60.0.3112.113,,2560-09-10 15:40:44,2560-09-10 15:40:45,1.153s,PASSED
+waitForPageLoad,Chrome 60.0.3112.113,,2560-09-10 15:40:45,2560-09-10 15:40:45,0.015s,PASSED
+setText,Chrome 60.0.3112.113,Input username,2560-09-10 15:40:45,2560-09-10 15:40:46,0.494s,PASSED
+setText,Chrome 60.0.3112.113,Input password,2560-09-10 15:40:46,2560-09-10 15:40:46,0.321s,PASSED
+setText,Chrome 60.0.3112.113,Input confirmat password,2560-09-10 15:40:46,2560-09-10 15:40:46,0.278s,PASSED
+setText,Chrome 60.0.3112.113,Input name,2560-09-10 15:40:46,2560-09-10 15:40:47,0.326s,PASSED
+setText,Chrome 60.0.3112.113,Input lastName,2560-09-10 15:40:47,2560-09-10 15:40:47,0.249s,PASSED
+setText,Chrome 60.0.3112.113,Input en name,2560-09-10 15:40:47,2560-09-10 15:40:47,0.325s,PASSED
+setText,Chrome 60.0.3112.113,Input en lastName,2560-09-10 15:40:47,2560-09-10 15:40:48,0.341s,PASSED
+setText,Chrome 60.0.3112.113,Input idcard,2560-09-10 15:40:48,2560-09-10 15:40:48,0.272s,PASSED
+setText,Chrome 60.0.3112.113,Input birthday,2560-09-10 15:40:48,2560-09-10 15:40:48,0.436s,PASSED
+selectOptionByValue,Chrome 60.0.3112.113,Input religion,2560-09-10 15:40:48,2560-09-10 15:40:49,0.346s,PASSED
+selectOptionByValue,Chrome 60.0.3112.113,Input educational,2560-09-10 15:40:49,2560-09-10 15:40:49,0.343s,PASSED
+selectOptionByValue,Chrome 60.0.3112.113,Input career,2560-09-10 15:40:49,2560-09-10 15:40:49,0.355s,PASSED
+setText,Chrome 60.0.3112.113,Input address no,2560-09-10 15:40:49,2560-09-10 15:40:50,0.292s,PASSED
+setText,Chrome 60.0.3112.113,Input address moo,2560-09-10 15:40:50,2560-09-10 15:40:50,0.221s,PASSED
+setText,Chrome 60.0.3112.113,Input address road,2560-09-10 15:40:50,2560-09-10 15:40:50,0.342s,PASSED
+selectOptionByValue,Chrome 60.0.3112.113,Input province,2560-09-10 15:40:50,2560-09-10 15:40:52,2.212s,PASSED
+selectOptionByValue,Chrome 60.0.3112.113,Input district,2560-09-10 15:40:52,2560-09-10 15:40:53,0.747s,PASSED
+selectOptionByValue,Chrome 60.0.3112.113,Input subdistrict,2560-09-10 15:40:53,2560-09-10 15:40:54,0.432s,PASSED
+setText,Chrome 60.0.3112.113,Input address zipcode,2560-09-10 15:40:54,2560-09-10 15:40:54,0.286s,PASSED
+selectOptionByValue,Chrome 60.0.3112.113,Input status educational work,2560-09-10 15:40:54,2560-09-10 15:40:54,0.289s,PASSED
+setText,Chrome 60.0.3112.113,Input address all,2560-09-10 15:40:54,2560-09-10 15:40:55,0.342s,PASSED
+setText,Chrome 60.0.3112.113,Input phone,2560-09-10 15:40:55,2560-09-10 15:40:55,0.430s,PASSED
+setText,Chrome 60.0.3112.113,Input cell phone,2560-09-10 15:40:55,2560-09-10 15:40:55,0.310s,PASSED
+setText,Chrome 60.0.3112.113,Input fax,2560-09-10 15:40:55,2560-09-10 15:40:56,0.297s,PASSED
+click,Chrome 60.0.3112.113,Click submit button,2560-09-10 15:40:56,2560-09-10 15:41:00,4.403s,PASSED
+waitForPageLoad,Chrome 60.0.3112.113,,2560-09-10 15:41:00,2560-09-10 15:41:00,0.020s,PASSED
+Statement - registerMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Register_Page/message_REGISTER_COMPLETE)),Chrome 60.0.3112.113,Check the message when registration is complete,2560-09-10 15:41:00,2560-09-10 15:41:00,0.096s,PASSED
+verifyMatch,Chrome 60.0.3112.113,,2560-09-10 15:41:00,2560-09-10 15:41:00,0.002s,PASSED
+click,Chrome 60.0.3112.113,Click to Home Page,2560-09-10 15:41:00,2560-09-10 15:41:01,0.584s,PASSED
+waitForPageLoad,Chrome 60.0.3112.113,,2560-09-10 15:41:01,2560-09-10 15:41:01,0.021s,PASSED
+setText,Chrome 60.0.3112.113,Input email,2560-09-10 15:41:01,2560-09-10 15:41:01,0.367s,PASSED
+setText,Chrome 60.0.3112.113,Input password,2560-09-10 15:41:01,2560-09-10 15:41:01,0.319s,PASSED
+click,Chrome 60.0.3112.113,click submit button login,2560-09-10 15:41:01,2560-09-10 15:41:02,0.865s,PASSED
+waitForPageLoad,Chrome 60.0.3112.113,,2560-09-10 15:41:02,2560-09-10 15:41:02,0.030s,PASSED
+Statement - loginMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login_Page/strong_Email)),Chrome 60.0.3112.113,Check the message when login,2560-09-10 15:41:02,2560-09-10 15:41:02,0.107s,PASSED
+verifyMatch,Chrome 60.0.3112.113,,2560-09-10 15:41:02,2560-09-10 15:41:02,0.002s,PASSED
+closeBrowser,Chrome 60.0.3112.113,Close browser,2560-09-10 15:41:02,2560-09-10 15:41:04,1.120s,PASSED
+,,,,,,
+Test Cases/Register/Register_Repeat,Chrome 60.0.3112.113,Used to register for volunteers.\nTake a look at the re-registration.,2560-09-10 15:41:04,2560-09-10 15:41:38,34.111s,PASSED
+Statement - length = 10,Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.001s,PASSED
+"Statement - pool = [(a..z), (A..Z), (0..9), ""-""].flatten()",Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.008s,PASSED
+Statement - random = new java.util.Random(java.lang.System.currentTimeMillis()),Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.004s,PASSED
+Statement - randomChars = (0..(length - 1)).collect({ -> ... }),Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.007s,PASSED
+Statement - randomString = randomChars.join(),Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.001s,PASSED
+Statement - rn = new java.util.Random(),Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.002s,PASSED
+"Statement - randomIdCard = """"",Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.001s,PASSED
+Statement - id = 0,Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.000s,PASSED
+"Statement - For ([i = 1, i <= 12, (i++)])",Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.021s,PASSED
+Statement - id = java.lang.Long.parseLong(randomIdCard),Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.000s,PASSED
+Statement - base = 100000000000,Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.003s,PASSED
+Statement - basenow = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.001s,PASSED
+Statement - sum = 0,Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.001s,PASSED
+"Statement - For ([i = 13, i > 1, (i--)])",Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.081s,PASSED
+Statement - checkbit = 11 - sum % 11 % 10,Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.000s,PASSED
+Statement - randomIdCard = randomIdCard + checkbit,Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.002s,PASSED
+"Statement - randomEmail = randomString + ""@gmail.com""",Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.000s,PASSED
+Statement - password = randomString,Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.000s,PASSED
+"Statement - name = ""รันจวน""",Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.001s,PASSED
+"Statement - lastName = ""หอมหวน""",Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.001s,PASSED
+Statement - en_Name = randomString,Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.001s,PASSED
+Statement - en_LastName = randomString,Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.001s,PASSED
+Statement - idCard = randomIdCard,Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.000s,PASSED
+"Statement - birthday = ""25/09/1991""",Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.000s,PASSED
+"Statement - religion = ""พุทธ""",Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.000s,PASSED
+"Statement - educational = ""ปริญญาตรี""",Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.001s,PASSED
+"Statement - career = ""รับราชการ""",Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.000s,PASSED
+"Statement - address_No = ""149/6""",Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.001s,PASSED
+"Statement - address_Moo = ""10""",Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.000s,PASSED
+"Statement - address_Road = ""สันทรายพร้าว""",Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.001s,PASSED
+"Statement - province = ""38""",Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.000s,PASSED
+"Statement - district = ""581""",Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.001s,PASSED
+"Statement - subdistrict = ""14039""",Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.001s,PASSED
+"Statement - address_ZipCode = ""50210""",Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.000s,PASSED
+"Statement - status_Edu_Work = ""กำลังทำงาน""",Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.000s,PASSED
+"Statement - address_All = ""บ้าน""",Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.001s,PASSED
+"Statement - phone = ""053354121""",Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.000s,PASSED
+"Statement - cell_Phone = ""0901255710""",Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.000s,PASSED
+"Statement - fax = ""085532111""",Chrome 60.0.3112.113,,2560-09-10 15:41:04,2560-09-10 15:41:04,0.000s,PASSED
+openBrowser,Chrome 60.0.3112.113,Open browser and navigate,2560-09-10 15:41:04,2560-09-10 15:41:07,2.398s,PASSED
+navigateToUrl,Chrome 60.0.3112.113,,2560-09-10 15:41:07,2560-09-10 15:41:10,2.916s,PASSED
+maximizeWindow,Chrome 60.0.3112.113,,2560-09-10 15:41:10,2560-09-10 15:41:11,1.152s,PASSED
+waitForPageLoad,Chrome 60.0.3112.113,,2560-09-10 15:41:11,2560-09-10 15:41:11,0.015s,PASSED
+setText,Chrome 60.0.3112.113,Input username,2560-09-10 15:41:11,2560-09-10 15:41:11,0.570s,PASSED
+setText,Chrome 60.0.3112.113,Input password,2560-09-10 15:41:11,2560-09-10 15:41:12,0.370s,PASSED
+setText,Chrome 60.0.3112.113,Input confirmat password,2560-09-10 15:41:12,2560-09-10 15:41:12,0.271s,PASSED
+setText,Chrome 60.0.3112.113,Input name,2560-09-10 15:41:12,2560-09-10 15:41:12,0.258s,PASSED
+setText,Chrome 60.0.3112.113,Input lastName,2560-09-10 15:41:12,2560-09-10 15:41:12,0.267s,PASSED
+setText,Chrome 60.0.3112.113,Input en name,2560-09-10 15:41:12,2560-09-10 15:41:13,0.401s,PASSED
+setText,Chrome 60.0.3112.113,Input en lastName,2560-09-10 15:41:13,2560-09-10 15:41:13,0.342s,PASSED
+setText,Chrome 60.0.3112.113,Input idcard,2560-09-10 15:41:13,2560-09-10 15:41:14,0.349s,PASSED
+setText,Chrome 60.0.3112.113,Input birthday,2560-09-10 15:41:14,2560-09-10 15:41:14,0.550s,PASSED
+selectOptionByValue,Chrome 60.0.3112.113,Input religion,2560-09-10 15:41:14,2560-09-10 15:41:15,0.390s,PASSED
+selectOptionByValue,Chrome 60.0.3112.113,Input educational,2560-09-10 15:41:15,2560-09-10 15:41:15,0.436s,PASSED
+selectOptionByValue,Chrome 60.0.3112.113,Input career,2560-09-10 15:41:15,2560-09-10 15:41:15,0.350s,PASSED
+setText,Chrome 60.0.3112.113,Input address no,2560-09-10 15:41:15,2560-09-10 15:41:16,0.274s,PASSED
+setText,Chrome 60.0.3112.113,Input address moo,2560-09-10 15:41:16,2560-09-10 15:41:16,0.224s,PASSED
+setText,Chrome 60.0.3112.113,Input address road,2560-09-10 15:41:16,2560-09-10 15:41:16,0.335s,PASSED
+selectOptionByValue,Chrome 60.0.3112.113,Input province,2560-09-10 15:41:16,2560-09-10 15:41:18,2.233s,PASSED
+selectOptionByValue,Chrome 60.0.3112.113,Input district,2560-09-10 15:41:18,2560-09-10 15:41:19,0.725s,PASSED
+selectOptionByValue,Chrome 60.0.3112.113,Input subdistrict,2560-09-10 15:41:19,2560-09-10 15:41:20,0.414s,PASSED
+setText,Chrome 60.0.3112.113,Input address zipcode,2560-09-10 15:41:20,2560-09-10 15:41:20,0.271s,PASSED
+selectOptionByValue,Chrome 60.0.3112.113,Input status educational work,2560-09-10 15:41:20,2560-09-10 15:41:20,0.294s,PASSED
+setText,Chrome 60.0.3112.113,Input address all,2560-09-10 15:41:20,2560-09-10 15:41:20,0.291s,PASSED
+setText,Chrome 60.0.3112.113,Input phone,2560-09-10 15:41:20,2560-09-10 15:41:21,0.281s,PASSED
+setText,Chrome 60.0.3112.113,Input cell phone,2560-09-10 15:41:21,2560-09-10 15:41:21,0.294s,PASSED
+setText,Chrome 60.0.3112.113,Input fax,2560-09-10 15:41:21,2560-09-10 15:41:21,0.315s,PASSED
+click,Chrome 60.0.3112.113,Click submit button,2560-09-10 15:41:21,2560-09-10 15:41:25,3.471s,PASSED
+waitForPageLoad,Chrome 60.0.3112.113,,2560-09-10 15:41:25,2560-09-10 15:41:25,0.025s,PASSED
+Statement - registerMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Register_Page/message_REGISTER_COMPLETE)),Chrome 60.0.3112.113,Check the message when registration is complete,2560-09-10 15:41:25,2560-09-10 15:41:25,0.083s,PASSED
+verifyMatch,Chrome 60.0.3112.113,,2560-09-10 15:41:25,2560-09-10 15:41:25,0.002s,PASSED
+click,Chrome 60.0.3112.113,Click to register Page,2560-09-10 15:41:25,2560-09-10 15:41:25,0.639s,PASSED
+waitForPageLoad,Chrome 60.0.3112.113,,2560-09-10 15:41:25,2560-09-10 15:41:26,0.018s,PASSED
+setText,Chrome 60.0.3112.113,Input username,2560-09-10 15:41:26,2560-09-10 15:41:26,0.433s,PASSED
+setText,Chrome 60.0.3112.113,Input password,2560-09-10 15:41:26,2560-09-10 15:41:26,0.305s,PASSED
+setText,Chrome 60.0.3112.113,Input confirmat password,2560-09-10 15:41:26,2560-09-10 15:41:27,0.259s,PASSED
+setText,Chrome 60.0.3112.113,Input name,2560-09-10 15:41:27,2560-09-10 15:41:27,0.262s,PASSED
+setText,Chrome 60.0.3112.113,Input lastName,2560-09-10 15:41:27,2560-09-10 15:41:27,0.239s,PASSED
+setText,Chrome 60.0.3112.113,Input en name,2560-09-10 15:41:27,2560-09-10 15:41:27,0.302s,PASSED
+setText,Chrome 60.0.3112.113,Input en lastName,2560-09-10 15:41:27,2560-09-10 15:41:28,0.282s,PASSED
+setText,Chrome 60.0.3112.113,Input idcard,2560-09-10 15:41:28,2560-09-10 15:41:28,0.250s,PASSED
+setText,Chrome 60.0.3112.113,Input birthday,2560-09-10 15:41:28,2560-09-10 15:41:28,0.390s,PASSED
+selectOptionByValue,Chrome 60.0.3112.113,Input religion,2560-09-10 15:41:28,2560-09-10 15:41:29,0.303s,PASSED
+selectOptionByValue,Chrome 60.0.3112.113,Input educational,2560-09-10 15:41:29,2560-09-10 15:41:29,0.300s,PASSED
+selectOptionByValue,Chrome 60.0.3112.113,Input career,2560-09-10 15:41:29,2560-09-10 15:41:29,0.364s,PASSED
+setText,Chrome 60.0.3112.113,Input address no,2560-09-10 15:41:29,2560-09-10 15:41:30,0.333s,PASSED
+setText,Chrome 60.0.3112.113,Input address moo,2560-09-10 15:41:30,2560-09-10 15:41:30,0.219s,PASSED
+setText,Chrome 60.0.3112.113,Input address road,2560-09-10 15:41:30,2560-09-10 15:41:30,0.306s,PASSED
+selectOptionByValue,Chrome 60.0.3112.113,Input province,2560-09-10 15:41:30,2560-09-10 15:41:32,2.143s,PASSED
+selectOptionByValue,Chrome 60.0.3112.113,Input district,2560-09-10 15:41:32,2560-09-10 15:41:33,0.779s,PASSED
+selectOptionByValue,Chrome 60.0.3112.113,Input subdistrict,2560-09-10 15:41:33,2560-09-10 15:41:33,0.390s,PASSED
+setText,Chrome 60.0.3112.113,Input address zipcode,2560-09-10 15:41:33,2560-09-10 15:41:34,0.276s,PASSED
+selectOptionByValue,Chrome 60.0.3112.113,Input status educational work,2560-09-10 15:41:34,2560-09-10 15:41:34,0.396s,PASSED
+setText,Chrome 60.0.3112.113,Input address all,2560-09-10 15:41:34,2560-09-10 15:41:34,0.352s,PASSED
+setText,Chrome 60.0.3112.113,Input phone,2560-09-10 15:41:34,2560-09-10 15:41:35,0.375s,PASSED
+setText,Chrome 60.0.3112.113,Input cell phone,2560-09-10 15:41:35,2560-09-10 15:41:35,0.318s,PASSED
+setText,Chrome 60.0.3112.113,Input fax,2560-09-10 15:41:35,2560-09-10 15:41:35,0.287s,PASSED
+click,Chrome 60.0.3112.113,Click submit button,2560-09-10 15:41:35,2560-09-10 15:41:36,0.951s,PASSED
+waitForPageLoad,Chrome 60.0.3112.113,,2560-09-10 15:41:36,2560-09-10 15:41:36,0.036s,PASSED
+Statement - alreadyIdCardMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_Already_IdCard)),Chrome 60.0.3112.113,Check the message already id card,2560-09-10 15:41:36,2560-09-10 15:41:36,0.113s,PASSED
+verifyMatch,Chrome 60.0.3112.113,,2560-09-10 15:41:36,2560-09-10 15:41:36,0.001s,PASSED
+Statement - alreadyEmailMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_Already_Email)),Chrome 60.0.3112.113,Check the message already email,2560-09-10 15:41:36,2560-09-10 15:41:37,0.120s,PASSED
+verifyMatch,Chrome 60.0.3112.113,,2560-09-10 15:41:37,2560-09-10 15:41:37,0.002s,PASSED
+closeBrowser,Chrome 60.0.3112.113,Close browser,2560-09-10 15:41:37,2560-09-10 15:41:38,1.080s,PASSED

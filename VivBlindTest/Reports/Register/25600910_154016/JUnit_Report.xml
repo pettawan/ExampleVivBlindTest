@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Register" time="77" tests="3" failures="0" errors="0">
+   <testsuite name="Register" tests="3" failures="0" errors="0" time="77" timestamp="2560-09-10 15:40:20" hostname="Moo - DESKTOP-K1TVTC0" id="Test Suites/Register">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Moo\\Katalon Studio\\VivBlindTest\\Reports\\Register\\25600910_154016"/>
+         <property name="logFiles" value="C:\\Users\\Moo\\Katalon Studio\\VivBlindTest\\Reports\\Register\\25600910_154016\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Moo - DESKTOP-K1TVTC0"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 60.0.3112.113"/>
+         <property name="hostAddress" value="192.168.1.41"/>
+         <property name="sessionId" value="1fd08bc76d955115e44d885be72d9b7c"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Register/Check_Validate_Register" classname="Test Cases/Register/Check_Validate_Register" status="PASSED">
+         <system-out><![CDATA[2560-09-10 15:40:21 - [TEST_CASE][PASSED] - Test Cases/Register/Check_Validate_Register: Test Cases/Register/Check_Validate_Register
+
+2560-09-10 15:40:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2560-09-10 15:40:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2560-09-10 15:40:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://vivblind.play2pay.me/volunteer/register' successfully
+
+2560-09-10 15:40:30 - [MESSAGE][PASSED] - Navigate to 'http://vivblind.play2pay.me/volunteer/register' successfully
+
+2560-09-10 15:40:30 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2560-09-10 15:40:31 - [MESSAGE][PASSED] - Current window maximized
+
+2560-09-10 15:40:31 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2560-09-10 15:40:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2560-09-10 15:40:31 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Button/register_submit_btn' is focused
+
+2560-09-10 15:40:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Button/register_submit_btn' is focused
+
+2560-09-10 15:40:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Button/register_submit_btn' is clicked on
+
+2560-09-10 15:40:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Button/register_submit_btn' is clicked on
+
+2560-09-10 15:40:32 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2560-09-10 15:40:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2560-09-10 15:40:32 - [TEST_STEP][PASSED] - Statement - emailMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_Email)): Text of object 'Object Repository/Check_Validate_Register/vaildate_message_Email' is: 'กรุณากรอกอีเมลที่ใช้งานจริงเพื่อให้ทางมูลนิธิติดต่อกลับได้'
+
+2560-09-10 15:40:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/Check_Validate_Register/vaildate_message_Email' is: 'กรุณากรอกอีเมลที่ใช้งานจริงเพื่อให้ทางมูลนิธิติดต่อกลับได้'
+
+2560-09-10 15:40:32 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'กรุณากรอกอีเมลที่ใช้งานจริงเพื่อให้ทางมูลนิธิติดต่อกลับได้' and expected text 'กรุณากรอกอีเมลที่ใช้งานจริงเพื่อให้ทางมูลนิธิติดต่อกลับได้' are matched 
+
+2560-09-10 15:40:32 - [MESSAGE][PASSED] - Actual text 'กรุณากรอกอีเมลที่ใช้งานจริงเพื่อให้ทางมูลนิธิติดต่อกลับได้' and expected text 'กรุณากรอกอีเมลที่ใช้งานจริงเพื่อให้ทางมูลนิธิติดต่อกลับได้' are matched 
+
+2560-09-10 15:40:32 - [TEST_STEP][PASSED] - Statement - usernameMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_UserName)): Text of object 'Object Repository/Check_Validate_Register/vaildate_message_UserName' is: 'กรุณากรอกรหัสสมาชิก'
+
+2560-09-10 15:40:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/Check_Validate_Register/vaildate_message_UserName' is: 'กรุณากรอกรหัสสมาชิก'
+
+2560-09-10 15:40:33 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'กรุณากรอกรหัสสมาชิก' and expected text 'กรุณากรอกรหัสสมาชิก' are matched 
+
+2560-09-10 15:40:33 - [MESSAGE][PASSED] - Actual text 'กรุณากรอกรหัสสมาชิก' and expected text 'กรุณากรอกรหัสสมาชิก' are matched 
+
+2560-09-10 15:40:33 - [TEST_STEP][PASSED] - Statement - passwordMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_Password)): Text of object 'Object Repository/Check_Validate_Register/vaildate_message_Password' is: 'กรุณากรอกรหัสผ่าน'
+
+2560-09-10 15:40:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/Check_Validate_Register/vaildate_message_Password' is: 'กรุณากรอกรหัสผ่าน'
+
+2560-09-10 15:40:33 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'กรุณากรอกรหัสผ่าน' and expected text 'กรุณากรอกรหัสผ่าน' are matched 
+
+2560-09-10 15:40:33 - [MESSAGE][PASSED] - Actual text 'กรุณากรอกรหัสผ่าน' and expected text 'กรุณากรอกรหัสผ่าน' are matched 
+
+2560-09-10 15:40:33 - [TEST_STEP][PASSED] - Statement - confirmPasswordMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_ConfirmPassword)): Text of object 'Object Repository/Check_Validate_Register/vaildate_message_ConfirmPassword' is: 'กรุณายืนยันรหัสผ่านของท่าน'
+
+2560-09-10 15:40:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/Check_Validate_Register/vaildate_message_ConfirmPassword' is: 'กรุณายืนยันรหัสผ่านของท่าน'
+
+2560-09-10 15:40:33 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'กรุณายืนยันรหัสผ่านของท่าน' and expected text 'กรุณายืนยันรหัสผ่านของท่าน' are matched 
+
+2560-09-10 15:40:33 - [MESSAGE][PASSED] - Actual text 'กรุณายืนยันรหัสผ่านของท่าน' and expected text 'กรุณายืนยันรหัสผ่านของท่าน' are matched 
+
+2560-09-10 15:40:33 - [TEST_STEP][PASSED] - Statement - nameMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_Name)): Text of object 'Object Repository/Check_Validate_Register/vaildate_message_Name' is: 'กรุณากรอกชื่อ'
+
+2560-09-10 15:40:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/Check_Validate_Register/vaildate_message_Name' is: 'กรุณากรอกชื่อ'
+
+2560-09-10 15:40:33 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'กรุณากรอกชื่อ' and expected text 'กรุณากรอกชื่อ' are matched 
+
+2560-09-10 15:40:33 - [MESSAGE][PASSED] - Actual text 'กรุณากรอกชื่อ' and expected text 'กรุณากรอกชื่อ' are matched 
+
+2560-09-10 15:40:33 - [TEST_STEP][PASSED] - Statement - lastNameMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_LastNames)): Text of object 'Object Repository/Check_Validate_Register/vaildate_message_LastNames' is: 'กรุณากรอกนามสกุล'
+
+2560-09-10 15:40:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/Check_Validate_Register/vaildate_message_LastNames' is: 'กรุณากรอกนามสกุล'
+
+2560-09-10 15:40:34 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'กรุณากรอกนามสกุล' and expected text 'กรุณากรอกนามสกุล' are matched 
+
+2560-09-10 15:40:34 - [MESSAGE][PASSED] - Actual text 'กรุณากรอกนามสกุล' and expected text 'กรุณากรอกนามสกุล' are matched 
+
+2560-09-10 15:40:34 - [TEST_STEP][PASSED] - Statement - enNameMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_EnName)): Text of object 'Object Repository/Check_Validate_Register/vaildate_message_EnName' is: 'กรุณากรอกชื่อภาษาอังกฤษ'
+
+2560-09-10 15:40:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/Check_Validate_Register/vaildate_message_EnName' is: 'กรุณากรอกชื่อภาษาอังกฤษ'
+
+2560-09-10 15:40:34 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'กรุณากรอกชื่อภาษาอังกฤษ' and expected text 'กรุณากรอกชื่อภาษาอังกฤษ' are matched 
+
+2560-09-10 15:40:34 - [MESSAGE][PASSED] - Actual text 'กรุณากรอกชื่อภาษาอังกฤษ' and expected text 'กรุณากรอกชื่อภาษาอังกฤษ' are matched 
+
+2560-09-10 15:40:34 - [TEST_STEP][PASSED] - Statement - enLastNameMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_EnLastNames)): Text of object 'Object Repository/Check_Validate_Register/vaildate_message_EnLastNames' is: 'กรุณากรอกนามสกุลภาษาอังกฤษ'
+
+2560-09-10 15:40:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/Check_Validate_Register/vaildate_message_EnLastNames' is: 'กรุณากรอกนามสกุลภาษาอังกฤษ'
+
+2560-09-10 15:40:34 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'กรุณากรอกนามสกุลภาษาอังกฤษ' and expected text 'กรุณากรอกนามสกุลภาษาอังกฤษ' are matched 
+
+2560-09-10 15:40:34 - [MESSAGE][PASSED] - Actual text 'กรุณากรอกนามสกุลภาษาอังกฤษ' and expected text 'กรุณากรอกนามสกุลภาษาอังกฤษ' are matched 
+
+2560-09-10 15:40:34 - [TEST_STEP][PASSED] - Statement - idCardMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_IDCard)): Text of object 'Object Repository/Check_Validate_Register/vaildate_message_IDCard' is: 'กรุณากรอกเลขบัตรประชาชน'
+
+2560-09-10 15:40:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/Check_Validate_Register/vaildate_message_IDCard' is: 'กรุณากรอกเลขบัตรประชาชน'
+
+2560-09-10 15:40:34 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'กรุณากรอกเลขบัตรประชาชน' and expected text 'กรุณากรอกเลขบัตรประชาชน' are matched 
+
+2560-09-10 15:40:34 - [MESSAGE][PASSED] - Actual text 'กรุณากรอกเลขบัตรประชาชน' and expected text 'กรุณากรอกเลขบัตรประชาชน' are matched 
+
+2560-09-10 15:40:34 - [TEST_STEP][PASSED] - Statement - religionMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_Religion)): Text of object 'Object Repository/Check_Validate_Register/vaildate_message_Religion' is: 'กรุณาเลือกศาสนา'
+
+2560-09-10 15:40:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Check_Validate_Register/vaildate_message_Religion' is: 'กรุณาเลือกศาสนา'
+
+2560-09-10 15:40:35 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'กรุณาเลือกศาสนา' and expected text 'กรุณาเลือกศาสนา' are matched 
+
+2560-09-10 15:40:35 - [MESSAGE][PASSED] - Actual text 'กรุณาเลือกศาสนา' and expected text 'กรุณาเลือกศาสนา' are matched 
+
+2560-09-10 15:40:35 - [TEST_STEP][PASSED] - Statement - educationMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_Education)): Text of object 'Object Repository/Check_Validate_Register/vaildate_message_Education' is: 'กรุณาเลือกระดับการศึกษา'
+
+2560-09-10 15:40:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Check_Validate_Register/vaildate_message_Education' is: 'กรุณาเลือกระดับการศึกษา'
+
+2560-09-10 15:40:35 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'กรุณาเลือกระดับการศึกษา' and expected text 'กรุณาเลือกระดับการศึกษา' are matched 
+
+2560-09-10 15:40:35 - [MESSAGE][PASSED] - Actual text 'กรุณาเลือกระดับการศึกษา' and expected text 'กรุณาเลือกระดับการศึกษา' are matched 
+
+2560-09-10 15:40:35 - [TEST_STEP][PASSED] - Statement - careerMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_Career)): Text of object 'Object Repository/Check_Validate_Register/vaildate_message_Career' is: 'กรุณาเลือกอาชีพ'
+
+2560-09-10 15:40:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Check_Validate_Register/vaildate_message_Career' is: 'กรุณาเลือกอาชีพ'
+
+2560-09-10 15:40:35 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'กรุณาเลือกอาชีพ' and expected text 'กรุณาเลือกอาชีพ' are matched 
+
+2560-09-10 15:40:35 - [MESSAGE][PASSED] - Actual text 'กรุณาเลือกอาชีพ' and expected text 'กรุณาเลือกอาชีพ' are matched 
+
+2560-09-10 15:40:35 - [TEST_STEP][PASSED] - Statement - numberMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_Number)): Text of object 'Object Repository/Check_Validate_Register/vaildate_message_Number' is: 'กรุณากรอกเลขที่'
+
+2560-09-10 15:40:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Check_Validate_Register/vaildate_message_Number' is: 'กรุณากรอกเลขที่'
+
+2560-09-10 15:40:36 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'กรุณากรอกเลขที่' and expected text 'กรุณากรอกเลขที่' are matched 
+
+2560-09-10 15:40:36 - [MESSAGE][PASSED] - Actual text 'กรุณากรอกเลขที่' and expected text 'กรุณากรอกเลขที่' are matched 
+
+2560-09-10 15:40:36 - [TEST_STEP][PASSED] - Statement - provinceMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_Province)): Text of object 'Object Repository/Check_Validate_Register/vaildate_message_Province' is: 'กรุณาเลือกจังหวัด'
+
+2560-09-10 15:40:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Check_Validate_Register/vaildate_message_Province' is: 'กรุณาเลือกจังหวัด'
+
+2560-09-10 15:40:36 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'กรุณาเลือกจังหวัด' and expected text 'กรุณาเลือกจังหวัด' are matched 
+
+2560-09-10 15:40:36 - [MESSAGE][PASSED] - Actual text 'กรุณาเลือกจังหวัด' and expected text 'กรุณาเลือกจังหวัด' are matched 
+
+2560-09-10 15:40:36 - [TEST_STEP][PASSED] - Statement - districtMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_District)): Text of object 'Object Repository/Check_Validate_Register/vaildate_message_District' is: 'กรุณาเลือกอำเภอ'
+
+2560-09-10 15:40:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Check_Validate_Register/vaildate_message_District' is: 'กรุณาเลือกอำเภอ'
+
+2560-09-10 15:40:36 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'กรุณาเลือกอำเภอ' and expected text 'กรุณาเลือกอำเภอ' are matched 
+
+2560-09-10 15:40:36 - [MESSAGE][PASSED] - Actual text 'กรุณาเลือกอำเภอ' and expected text 'กรุณาเลือกอำเภอ' are matched 
+
+2560-09-10 15:40:36 - [TEST_STEP][PASSED] - Statement - placeMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_Place)): Text of object 'Object Repository/Check_Validate_Register/vaildate_message_Place' is: 'กรุณาเลือกตำบล'
+
+2560-09-10 15:40:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Check_Validate_Register/vaildate_message_Place' is: 'กรุณาเลือกตำบล'
+
+2560-09-10 15:40:36 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'กรุณาเลือกตำบล' and expected text 'กรุณาเลือกตำบล' are matched 
+
+2560-09-10 15:40:36 - [MESSAGE][PASSED] - Actual text 'กรุณาเลือกตำบล' and expected text 'กรุณาเลือกตำบล' are matched 
+
+2560-09-10 15:40:36 - [TEST_STEP][PASSED] - Statement - zipCodeMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_ZipCode)): Text of object 'Object Repository/Check_Validate_Register/vaildate_message_ZipCode' is: 'กรุณากรอกรหัสไปรษณีย์'
+
+2560-09-10 15:40:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Check_Validate_Register/vaildate_message_ZipCode' is: 'กรุณากรอกรหัสไปรษณีย์'
+
+2560-09-10 15:40:37 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'กรุณากรอกรหัสไปรษณีย์' and expected text 'กรุณากรอกรหัสไปรษณีย์' are matched 
+
+2560-09-10 15:40:37 - [MESSAGE][PASSED] - Actual text 'กรุณากรอกรหัสไปรษณีย์' and expected text 'กรุณากรอกรหัสไปรษณีย์' are matched 
+
+2560-09-10 15:40:37 - [TEST_STEP][PASSED] - Statement - statusMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_Status)): Text of object 'Object Repository/Check_Validate_Register/vaildate_message_Status' is: 'กรุณาเลือกสถานะ การศึกษา,ทำงาน'
+
+2560-09-10 15:40:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Check_Validate_Register/vaildate_message_Status' is: 'กรุณาเลือกสถานะ การศึกษา,ทำงาน'
+
+2560-09-10 15:40:37 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'กรุณาเลือกสถานะ การศึกษา,ทำงาน' and expected text 'กรุณาเลือกสถานะ การศึกษา,ทำงาน' are matched 
+
+2560-09-10 15:40:37 - [MESSAGE][PASSED] - Actual text 'กรุณาเลือกสถานะ การศึกษา,ทำงาน' and expected text 'กรุณาเลือกสถานะ การศึกษา,ทำงาน' are matched 
+
+2560-09-10 15:40:37 - [TEST_STEP][PASSED] - Statement - phoneNumberMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_PhoneNumber)): Text of object 'Object Repository/Check_Validate_Register/vaildate_message_PhoneNumber' is: 'กรุณากรอกเบอร์มือถือ'
+
+2560-09-10 15:40:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Check_Validate_Register/vaildate_message_PhoneNumber' is: 'กรุณากรอกเบอร์มือถือ'
+
+2560-09-10 15:40:37 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'กรุณากรอกเบอร์มือถือ' and expected text 'กรุณากรอกเบอร์มือถือ' are matched 
+
+2560-09-10 15:40:37 - [MESSAGE][PASSED] - Actual text 'กรุณากรอกเบอร์มือถือ' and expected text 'กรุณากรอกเบอร์มือถือ' are matched 
+
+2560-09-10 15:40:37 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2560-09-10 15:40:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/Register" classname="Test Cases/Register/Register" status="PASSED">
+         <system-out><![CDATA[2560-09-10 15:40:38 - [TEST_CASE][PASSED] - Test Cases/Register/Register: Test Cases/Register/Register
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - length = 10: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - pool = [(a..z), (A..Z), (0..9), "-"].flatten(): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - random = new java.util.Random(java.lang.System.currentTimeMillis()): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - randomChars = (0..(length - 1)).collect({ -> ... }): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - randomString = randomChars.join(): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - rn = new java.util.Random(): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - randomIdCard = "": null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - id = 0: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - For ([i = 1, i <= 12, (i++)]): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - randomIdCard += java.lang.String.valueOf(rn.nextInt(9) + 1): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - randomIdCard += java.lang.String.valueOf(rn.nextInt(9) + 1): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - randomIdCard += java.lang.String.valueOf(rn.nextInt(9) + 1): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - randomIdCard += java.lang.String.valueOf(rn.nextInt(9) + 1): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - randomIdCard += java.lang.String.valueOf(rn.nextInt(9) + 1): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - randomIdCard += java.lang.String.valueOf(rn.nextInt(9) + 1): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - randomIdCard += java.lang.String.valueOf(rn.nextInt(9) + 1): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - randomIdCard += java.lang.String.valueOf(rn.nextInt(9) + 1): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - randomIdCard += java.lang.String.valueOf(rn.nextInt(9) + 1): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - randomIdCard += java.lang.String.valueOf(rn.nextInt(9) + 1): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - randomIdCard += java.lang.String.valueOf(rn.nextInt(9) + 1): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - randomIdCard += java.lang.String.valueOf(rn.nextInt(9) + 1): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - id = java.lang.Long.parseLong(randomIdCard): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - base = 100000000000: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - basenow = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - sum = 0: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - For ([i = 13, i > 1, (i--)]): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - basenow = java.lang.Math.floor(id / base): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - id = id - basenow * base: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - sum += basenow * i: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - base = base / 10: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - basenow = java.lang.Math.floor(id / base): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - id = id - basenow * base: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - sum += basenow * i: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - base = base / 10: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - basenow = java.lang.Math.floor(id / base): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - id = id - basenow * base: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - sum += basenow * i: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - base = base / 10: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - basenow = java.lang.Math.floor(id / base): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - id = id - basenow * base: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - sum += basenow * i: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - base = base / 10: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - basenow = java.lang.Math.floor(id / base): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - id = id - basenow * base: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - sum += basenow * i: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - base = base / 10: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - basenow = java.lang.Math.floor(id / base): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - id = id - basenow * base: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - sum += basenow * i: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - base = base / 10: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - basenow = java.lang.Math.floor(id / base): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - id = id - basenow * base: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - sum += basenow * i: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - base = base / 10: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - basenow = java.lang.Math.floor(id / base): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - id = id - basenow * base: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - sum += basenow * i: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - base = base / 10: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - basenow = java.lang.Math.floor(id / base): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - id = id - basenow * base: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - sum += basenow * i: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - base = base / 10: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - basenow = java.lang.Math.floor(id / base): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - id = id - basenow * base: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - sum += basenow * i: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - base = base / 10: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - basenow = java.lang.Math.floor(id / base): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - id = id - basenow * base: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - sum += basenow * i: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - base = base / 10: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - basenow = java.lang.Math.floor(id / base): null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - id = id - basenow * base: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - sum += basenow * i: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - base = base / 10: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - checkbit = 11 - sum % 11 % 10: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - randomIdCard = randomIdCard + checkbit: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - randomEmail = randomString + "@gmail.com": null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - password = randomString: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - name = "อารัญ": null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - lastName = "หอมหวน": null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - en_Name = randomString: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - en_LastName = randomString: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - idCard = randomIdCard: null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - birthday = "25/09/1991": null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - religion = "พุทธ": null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - educational = "ปริญญาตรี": null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - career = "รับราชการ": null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - address_No = "149/6": null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - address_Moo = "10": null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - address_Road = "สันทรายพร้าว": null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - province = "38": null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - district = "581": null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - subdistrict = "14039": null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - address_ZipCode = "50210": null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - status_Edu_Work = "กำลังทำงาน": null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - address_All = "บ้าน": null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - phone = "053354121": null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - cell_Phone = "0901255710": null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - Statement - fax = "085532111": null
+
+2560-09-10 15:40:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2560-09-10 15:40:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2560-09-10 15:40:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://vivblind.play2pay.me/volunteer/register' successfully
+
+2560-09-10 15:40:44 - [MESSAGE][PASSED] - Navigate to 'http://vivblind.play2pay.me/volunteer/register' successfully
+
+2560-09-10 15:40:44 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2560-09-10 15:40:45 - [MESSAGE][PASSED] - Current window maximized
+
+2560-09-10 15:40:45 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2560-09-10 15:40:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2560-09-10 15:40:45 - [TEST_STEP][PASSED] - setText: Text 'pqlL6St5KF@gmail.com' is set on object 'Object Repository/Register_Page/input_EMAIL'
+
+2560-09-10 15:40:46 - [MESSAGE][PASSED] - Text 'pqlL6St5KF@gmail.com' is set on object 'Object Repository/Register_Page/input_EMAIL'
+
+2560-09-10 15:40:46 - [TEST_STEP][PASSED] - setText: Text 'pqlL6St5KF' is set on object 'Object Repository/Register_Page/input_PASSWORD'
+
+2560-09-10 15:40:46 - [MESSAGE][PASSED] - Text 'pqlL6St5KF' is set on object 'Object Repository/Register_Page/input_PASSWORD'
+
+2560-09-10 15:40:46 - [TEST_STEP][PASSED] - setText: Text 'pqlL6St5KF' is set on object 'Object Repository/Register_Page/input_PASSWORD_CONFIRMATION'
+
+2560-09-10 15:40:46 - [MESSAGE][PASSED] - Text 'pqlL6St5KF' is set on object 'Object Repository/Register_Page/input_PASSWORD_CONFIRMATION'
+
+2560-09-10 15:40:46 - [TEST_STEP][PASSED] - setText: Text 'อารัญ' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_TH'
+
+2560-09-10 15:40:47 - [MESSAGE][PASSED] - Text 'อารัญ' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_TH'
+
+2560-09-10 15:40:47 - [TEST_STEP][PASSED] - setText: Text 'หอมหวน' is set on object 'Object Repository/Register_Page/input_LAST_NAME_TH'
+
+2560-09-10 15:40:47 - [MESSAGE][PASSED] - Text 'หอมหวน' is set on object 'Object Repository/Register_Page/input_LAST_NAME_TH'
+
+2560-09-10 15:40:47 - [TEST_STEP][PASSED] - setText: Text 'pqlL6St5KF' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_EN'
+
+2560-09-10 15:40:47 - [MESSAGE][PASSED] - Text 'pqlL6St5KF' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_EN'
+
+2560-09-10 15:40:47 - [TEST_STEP][PASSED] - setText: Text 'pqlL6St5KF' is set on object 'Object Repository/Register_Page/input_LAST_NAME_EN'
+
+2560-09-10 15:40:48 - [MESSAGE][PASSED] - Text 'pqlL6St5KF' is set on object 'Object Repository/Register_Page/input_LAST_NAME_EN'
+
+2560-09-10 15:40:48 - [TEST_STEP][PASSED] - setText: Text '6312612864845' is set on object 'Object Repository/Register_Page/input_CITIZEN_ID'
+
+2560-09-10 15:40:48 - [MESSAGE][PASSED] - Text '6312612864845' is set on object 'Object Repository/Register_Page/input_CITIZEN_ID'
+
+2560-09-10 15:40:48 - [TEST_STEP][PASSED] - setText: Text '25/09/1991' is set on object 'Object Repository/Register_Page/input_BIRTH_DATE'
+
+2560-09-10 15:40:48 - [MESSAGE][PASSED] - Text '25/09/1991' is set on object 'Object Repository/Register_Page/input_BIRTH_DATE'
+
+2560-09-10 15:40:48 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'พุทธ' are selected in object 'Object Repository/Register_Page/select_RELIGION'  using regular expression
+
+2560-09-10 15:40:49 - [MESSAGE][PASSED] - All options with value 'พุทธ' are selected in object 'Object Repository/Register_Page/select_RELIGION'  using regular expression
+
+2560-09-10 15:40:49 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'ปริญญาตรี' are selected in object 'Object Repository/Register_Page/select_EDUCATIONAL'  using regular expression
+
+2560-09-10 15:40:49 - [MESSAGE][PASSED] - All options with value 'ปริญญาตรี' are selected in object 'Object Repository/Register_Page/select_EDUCATIONAL'  using regular expression
+
+2560-09-10 15:40:49 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'รับราชการ' are selected in object 'Object Repository/Register_Page/select_CAREER'  using regular expression
+
+2560-09-10 15:40:49 - [MESSAGE][PASSED] - All options with value 'รับราชการ' are selected in object 'Object Repository/Register_Page/select_CAREER'  using regular expression
+
+2560-09-10 15:40:49 - [TEST_STEP][PASSED] - setText: Text '149/6' is set on object 'Object Repository/Register_Page/input_ADDRESS_NO'
+
+2560-09-10 15:40:50 - [MESSAGE][PASSED] - Text '149/6' is set on object 'Object Repository/Register_Page/input_ADDRESS_NO'
+
+2560-09-10 15:40:50 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Register_Page/input_ADDRESS_MOO'
+
+2560-09-10 15:40:50 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Register_Page/input_ADDRESS_MOO'
+
+2560-09-10 15:40:50 - [TEST_STEP][PASSED] - setText: Text 'สันทรายพร้าว' is set on object 'Object Repository/Register_Page/input_ADDRESS_ROAD'
+
+2560-09-10 15:40:50 - [MESSAGE][PASSED] - Text 'สันทรายพร้าว' is set on object 'Object Repository/Register_Page/input_ADDRESS_ROAD'
+
+2560-09-10 15:40:50 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '38' are selected in object 'Object Repository/Register_Page/select_ADDRESS_PROVINCE'  using regular expression
+
+2560-09-10 15:40:52 - [MESSAGE][PASSED] - All options with value '38' are selected in object 'Object Repository/Register_Page/select_ADDRESS_PROVINCE'  using regular expression
+
+2560-09-10 15:40:52 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '581' are selected in object 'Object Repository/Register_Page/select_ADDRESS_DISTRICT'  using regular expression
+
+2560-09-10 15:40:53 - [MESSAGE][PASSED] - All options with value '581' are selected in object 'Object Repository/Register_Page/select_ADDRESS_DISTRICT'  using regular expression
+
+2560-09-10 15:40:53 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '14039' are selected in object 'Object Repository/Register_Page/select_ADDRESS_SUBDISTRICT'  using regular expression
+
+2560-09-10 15:40:54 - [MESSAGE][PASSED] - All options with value '14039' are selected in object 'Object Repository/Register_Page/select_ADDRESS_SUBDISTRICT'  using regular expression
+
+2560-09-10 15:40:54 - [TEST_STEP][PASSED] - setText: Text '50210' is set on object 'Object Repository/Register_Page/input_ADDRESS_POSTCODE'
+
+2560-09-10 15:40:54 - [MESSAGE][PASSED] - Text '50210' is set on object 'Object Repository/Register_Page/input_ADDRESS_POSTCODE'
+
+2560-09-10 15:40:54 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'กำลังทำงาน' are selected in object 'Object Repository/Register_Page/select_STATUS_EDU_WORK'  using regular expression
+
+2560-09-10 15:40:54 - [MESSAGE][PASSED] - All options with value 'กำลังทำงาน' are selected in object 'Object Repository/Register_Page/select_STATUS_EDU_WORK'  using regular expression
+
+2560-09-10 15:40:54 - [TEST_STEP][PASSED] - setText: Text 'บ้าน' is set on object 'Object Repository/Register_Page/input_ADDRESS_ALL'
+
+2560-09-10 15:40:55 - [MESSAGE][PASSED] - Text 'บ้าน' is set on object 'Object Repository/Register_Page/input_ADDRESS_ALL'
+
+2560-09-10 15:40:55 - [TEST_STEP][PASSED] - setText: Text '053354121' is set on object 'Object Repository/Register_Page/input_PHONE'
+
+2560-09-10 15:40:55 - [MESSAGE][PASSED] - Text '053354121' is set on object 'Object Repository/Register_Page/input_PHONE'
+
+2560-09-10 15:40:55 - [TEST_STEP][PASSED] - setText: Text '0901255710' is set on object 'Object Repository/Register_Page/input_CELL_PHONE'
+
+2560-09-10 15:40:55 - [MESSAGE][PASSED] - Text '0901255710' is set on object 'Object Repository/Register_Page/input_CELL_PHONE'
+
+2560-09-10 15:40:55 - [TEST_STEP][PASSED] - setText: Text '085532111' is set on object 'Object Repository/Register_Page/input_FAX'
+
+2560-09-10 15:40:56 - [MESSAGE][PASSED] - Text '085532111' is set on object 'Object Repository/Register_Page/input_FAX'
+
+2560-09-10 15:40:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Button/register_submit_btn' is clicked on
+
+2560-09-10 15:41:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Button/register_submit_btn' is clicked on
+
+2560-09-10 15:41:00 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2560-09-10 15:41:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2560-09-10 15:41:00 - [TEST_STEP][PASSED] - Statement - registerMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Register_Page/message_REGISTER_COMPLETE)): Text of object 'Object Repository/Register_Page/message_REGISTER_COMPLETE' is: 'ขอบคุณสำหรับการลงทะเบียนโปรดตรวจสอบที่อีเมลของท่านเพื่อทำการระบุตัวตน'
+
+2560-09-10 15:41:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/Register_Page/message_REGISTER_COMPLETE' is: 'ขอบคุณสำหรับการลงทะเบียนโปรดตรวจสอบที่อีเมลของท่านเพื่อทำการระบุตัวตน'
+
+2560-09-10 15:41:00 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'ขอบคุณสำหรับการลงทะเบียนโปรดตรวจสอบที่อีเมลของท่านเพื่อทำการระบุตัวตน' and expected text 'ขอบคุณสำหรับการลงทะเบียนโปรดตรวจสอบที่อีเมลของท่านเพื่อทำการระบุตัวตน' are matched 
+
+2560-09-10 15:41:00 - [MESSAGE][PASSED] - Actual text 'ขอบคุณสำหรับการลงทะเบียนโปรดตรวจสอบที่อีเมลของท่านเพื่อทำการระบุตัวตน' and expected text 'ขอบคุณสำหรับการลงทะเบียนโปรดตรวจสอบที่อีเมลของท่านเพื่อทำการระบุตัวตน' are matched 
+
+2560-09-10 15:41:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Page/link_Home_Page' is clicked on
+
+2560-09-10 15:41:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/link_Home_Page' is clicked on
+
+2560-09-10 15:41:01 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2560-09-10 15:41:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2560-09-10 15:41:01 - [TEST_STEP][PASSED] - setText: Text 'pqlL6St5KF@gmail.com' is set on object 'Object Repository/Login_Page/input_EMAIL'
+
+2560-09-10 15:41:01 - [MESSAGE][PASSED] - Text 'pqlL6St5KF@gmail.com' is set on object 'Object Repository/Login_Page/input_EMAIL'
+
+2560-09-10 15:41:01 - [TEST_STEP][PASSED] - setText: Text 'pqlL6St5KF' is set on object 'Object Repository/Login_Page/input_password'
+
+2560-09-10 15:41:01 - [MESSAGE][PASSED] - Text 'pqlL6St5KF' is set on object 'Object Repository/Login_Page/input_password'
+
+2560-09-10 15:41:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Button/login_submit_btn' is clicked on
+
+2560-09-10 15:41:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Button/login_submit_btn' is clicked on
+
+2560-09-10 15:41:02 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2560-09-10 15:41:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2560-09-10 15:41:02 - [TEST_STEP][PASSED] - Statement - loginMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login_Page/strong_Email)): Text of object 'Object Repository/Login_Page/strong_Email' is: 'กรุณา ยืนยัน e-mail'
+
+2560-09-10 15:41:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login_Page/strong_Email' is: 'กรุณา ยืนยัน e-mail'
+
+2560-09-10 15:41:02 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'กรุณา ยืนยัน e-mail' and expected text 'กรุณา ยืนยัน e-mail' are matched 
+
+2560-09-10 15:41:02 - [MESSAGE][PASSED] - Actual text 'กรุณา ยืนยัน e-mail' and expected text 'กรุณา ยืนยัน e-mail' are matched 
+
+2560-09-10 15:41:02 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2560-09-10 15:41:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/Register_Repeat" classname="Test Cases/Register/Register_Repeat" status="PASSED">
+         <system-out><![CDATA[2560-09-10 15:41:04 - [TEST_CASE][PASSED] - Test Cases/Register/Register_Repeat: Test Cases/Register/Register_Repeat
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - length = 10: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - pool = [(a..z), (A..Z), (0..9), "-"].flatten(): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - random = new java.util.Random(java.lang.System.currentTimeMillis()): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - randomChars = (0..(length - 1)).collect({ -> ... }): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - randomString = randomChars.join(): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - rn = new java.util.Random(): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - randomIdCard = "": null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - id = 0: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - For ([i = 1, i <= 12, (i++)]): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - randomIdCard += java.lang.String.valueOf(rn.nextInt(9) + 1): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - randomIdCard += java.lang.String.valueOf(rn.nextInt(9) + 1): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - randomIdCard += java.lang.String.valueOf(rn.nextInt(9) + 1): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - randomIdCard += java.lang.String.valueOf(rn.nextInt(9) + 1): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - randomIdCard += java.lang.String.valueOf(rn.nextInt(9) + 1): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - randomIdCard += java.lang.String.valueOf(rn.nextInt(9) + 1): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - randomIdCard += java.lang.String.valueOf(rn.nextInt(9) + 1): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - randomIdCard += java.lang.String.valueOf(rn.nextInt(9) + 1): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - randomIdCard += java.lang.String.valueOf(rn.nextInt(9) + 1): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - randomIdCard += java.lang.String.valueOf(rn.nextInt(9) + 1): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - randomIdCard += java.lang.String.valueOf(rn.nextInt(9) + 1): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - randomIdCard += java.lang.String.valueOf(rn.nextInt(9) + 1): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - id = java.lang.Long.parseLong(randomIdCard): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - base = 100000000000: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - basenow = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - sum = 0: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - For ([i = 13, i > 1, (i--)]): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - basenow = java.lang.Math.floor(id / base): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - id = id - basenow * base: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - sum += basenow * i: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - base = base / 10: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - basenow = java.lang.Math.floor(id / base): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - id = id - basenow * base: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - sum += basenow * i: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - base = base / 10: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - basenow = java.lang.Math.floor(id / base): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - id = id - basenow * base: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - sum += basenow * i: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - base = base / 10: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - basenow = java.lang.Math.floor(id / base): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - id = id - basenow * base: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - sum += basenow * i: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - base = base / 10: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - basenow = java.lang.Math.floor(id / base): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - id = id - basenow * base: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - sum += basenow * i: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - base = base / 10: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - basenow = java.lang.Math.floor(id / base): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - id = id - basenow * base: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - sum += basenow * i: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - base = base / 10: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - basenow = java.lang.Math.floor(id / base): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - id = id - basenow * base: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - sum += basenow * i: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - base = base / 10: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - basenow = java.lang.Math.floor(id / base): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - id = id - basenow * base: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - sum += basenow * i: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - base = base / 10: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - basenow = java.lang.Math.floor(id / base): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - id = id - basenow * base: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - sum += basenow * i: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - base = base / 10: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - basenow = java.lang.Math.floor(id / base): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - id = id - basenow * base: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - sum += basenow * i: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - base = base / 10: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - basenow = java.lang.Math.floor(id / base): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - id = id - basenow * base: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - sum += basenow * i: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - base = base / 10: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - basenow = java.lang.Math.floor(id / base): null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - id = id - basenow * base: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - sum += basenow * i: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - base = base / 10: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - checkbit = 11 - sum % 11 % 10: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - randomIdCard = randomIdCard + checkbit: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - randomEmail = randomString + "@gmail.com": null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - password = randomString: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - name = "รันจวน": null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - lastName = "หอมหวน": null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - en_Name = randomString: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - en_LastName = randomString: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - idCard = randomIdCard: null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - birthday = "25/09/1991": null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - religion = "พุทธ": null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - educational = "ปริญญาตรี": null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - career = "รับราชการ": null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - address_No = "149/6": null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - address_Moo = "10": null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - address_Road = "สันทรายพร้าว": null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - province = "38": null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - district = "581": null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - subdistrict = "14039": null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - address_ZipCode = "50210": null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - status_Edu_Work = "กำลังทำงาน": null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - address_All = "บ้าน": null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - phone = "053354121": null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - cell_Phone = "0901255710": null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - Statement - fax = "085532111": null
+
+2560-09-10 15:41:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2560-09-10 15:41:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2560-09-10 15:41:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://vivblind.play2pay.me/volunteer/register' successfully
+
+2560-09-10 15:41:10 - [MESSAGE][PASSED] - Navigate to 'http://vivblind.play2pay.me/volunteer/register' successfully
+
+2560-09-10 15:41:10 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2560-09-10 15:41:11 - [MESSAGE][PASSED] - Current window maximized
+
+2560-09-10 15:41:11 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2560-09-10 15:41:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2560-09-10 15:41:11 - [TEST_STEP][PASSED] - setText: Text 'gcsiLxKXRJ@gmail.com' is set on object 'Object Repository/Register_Page/input_EMAIL'
+
+2560-09-10 15:41:11 - [MESSAGE][PASSED] - Text 'gcsiLxKXRJ@gmail.com' is set on object 'Object Repository/Register_Page/input_EMAIL'
+
+2560-09-10 15:41:11 - [TEST_STEP][PASSED] - setText: Text 'gcsiLxKXRJ' is set on object 'Object Repository/Register_Page/input_PASSWORD'
+
+2560-09-10 15:41:12 - [MESSAGE][PASSED] - Text 'gcsiLxKXRJ' is set on object 'Object Repository/Register_Page/input_PASSWORD'
+
+2560-09-10 15:41:12 - [TEST_STEP][PASSED] - setText: Text 'gcsiLxKXRJ' is set on object 'Object Repository/Register_Page/input_PASSWORD_CONFIRMATION'
+
+2560-09-10 15:41:12 - [MESSAGE][PASSED] - Text 'gcsiLxKXRJ' is set on object 'Object Repository/Register_Page/input_PASSWORD_CONFIRMATION'
+
+2560-09-10 15:41:12 - [TEST_STEP][PASSED] - setText: Text 'รันจวน' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_TH'
+
+2560-09-10 15:41:12 - [MESSAGE][PASSED] - Text 'รันจวน' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_TH'
+
+2560-09-10 15:41:12 - [TEST_STEP][PASSED] - setText: Text 'หอมหวน' is set on object 'Object Repository/Register_Page/input_LAST_NAME_TH'
+
+2560-09-10 15:41:12 - [MESSAGE][PASSED] - Text 'หอมหวน' is set on object 'Object Repository/Register_Page/input_LAST_NAME_TH'
+
+2560-09-10 15:41:12 - [TEST_STEP][PASSED] - setText: Text 'gcsiLxKXRJ' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_EN'
+
+2560-09-10 15:41:13 - [MESSAGE][PASSED] - Text 'gcsiLxKXRJ' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_EN'
+
+2560-09-10 15:41:13 - [TEST_STEP][PASSED] - setText: Text 'gcsiLxKXRJ' is set on object 'Object Repository/Register_Page/input_LAST_NAME_EN'
+
+2560-09-10 15:41:13 - [MESSAGE][PASSED] - Text 'gcsiLxKXRJ' is set on object 'Object Repository/Register_Page/input_LAST_NAME_EN'
+
+2560-09-10 15:41:13 - [TEST_STEP][PASSED] - setText: Text '4331182487238' is set on object 'Object Repository/Register_Page/input_CITIZEN_ID'
+
+2560-09-10 15:41:14 - [MESSAGE][PASSED] - Text '4331182487238' is set on object 'Object Repository/Register_Page/input_CITIZEN_ID'
+
+2560-09-10 15:41:14 - [TEST_STEP][PASSED] - setText: Text '25/09/1991' is set on object 'Object Repository/Register_Page/input_BIRTH_DATE'
+
+2560-09-10 15:41:14 - [MESSAGE][PASSED] - Text '25/09/1991' is set on object 'Object Repository/Register_Page/input_BIRTH_DATE'
+
+2560-09-10 15:41:14 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'พุทธ' are selected in object 'Object Repository/Register_Page/select_RELIGION'  using regular expression
+
+2560-09-10 15:41:15 - [MESSAGE][PASSED] - All options with value 'พุทธ' are selected in object 'Object Repository/Register_Page/select_RELIGION'  using regular expression
+
+2560-09-10 15:41:15 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'ปริญญาตรี' are selected in object 'Object Repository/Register_Page/select_EDUCATIONAL'  using regular expression
+
+2560-09-10 15:41:15 - [MESSAGE][PASSED] - All options with value 'ปริญญาตรี' are selected in object 'Object Repository/Register_Page/select_EDUCATIONAL'  using regular expression
+
+2560-09-10 15:41:15 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'รับราชการ' are selected in object 'Object Repository/Register_Page/select_CAREER'  using regular expression
+
+2560-09-10 15:41:15 - [MESSAGE][PASSED] - All options with value 'รับราชการ' are selected in object 'Object Repository/Register_Page/select_CAREER'  using regular expression
+
+2560-09-10 15:41:15 - [TEST_STEP][PASSED] - setText: Text '149/6' is set on object 'Object Repository/Register_Page/input_ADDRESS_NO'
+
+2560-09-10 15:41:16 - [MESSAGE][PASSED] - Text '149/6' is set on object 'Object Repository/Register_Page/input_ADDRESS_NO'
+
+2560-09-10 15:41:16 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Register_Page/input_ADDRESS_MOO'
+
+2560-09-10 15:41:16 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Register_Page/input_ADDRESS_MOO'
+
+2560-09-10 15:41:16 - [TEST_STEP][PASSED] - setText: Text 'สันทรายพร้าว' is set on object 'Object Repository/Register_Page/input_ADDRESS_ROAD'
+
+2560-09-10 15:41:16 - [MESSAGE][PASSED] - Text 'สันทรายพร้าว' is set on object 'Object Repository/Register_Page/input_ADDRESS_ROAD'
+
+2560-09-10 15:41:16 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '38' are selected in object 'Object Repository/Register_Page/select_ADDRESS_PROVINCE'  using regular expression
+
+2560-09-10 15:41:18 - [MESSAGE][PASSED] - All options with value '38' are selected in object 'Object Repository/Register_Page/select_ADDRESS_PROVINCE'  using regular expression
+
+2560-09-10 15:41:18 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '581' are selected in object 'Object Repository/Register_Page/select_ADDRESS_DISTRICT'  using regular expression
+
+2560-09-10 15:41:19 - [MESSAGE][PASSED] - All options with value '581' are selected in object 'Object Repository/Register_Page/select_ADDRESS_DISTRICT'  using regular expression
+
+2560-09-10 15:41:19 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '14039' are selected in object 'Object Repository/Register_Page/select_ADDRESS_SUBDISTRICT'  using regular expression
+
+2560-09-10 15:41:20 - [MESSAGE][PASSED] - All options with value '14039' are selected in object 'Object Repository/Register_Page/select_ADDRESS_SUBDISTRICT'  using regular expression
+
+2560-09-10 15:41:20 - [TEST_STEP][PASSED] - setText: Text '50210' is set on object 'Object Repository/Register_Page/input_ADDRESS_POSTCODE'
+
+2560-09-10 15:41:20 - [MESSAGE][PASSED] - Text '50210' is set on object 'Object Repository/Register_Page/input_ADDRESS_POSTCODE'
+
+2560-09-10 15:41:20 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'กำลังทำงาน' are selected in object 'Object Repository/Register_Page/select_STATUS_EDU_WORK'  using regular expression
+
+2560-09-10 15:41:20 - [MESSAGE][PASSED] - All options with value 'กำลังทำงาน' are selected in object 'Object Repository/Register_Page/select_STATUS_EDU_WORK'  using regular expression
+
+2560-09-10 15:41:20 - [TEST_STEP][PASSED] - setText: Text 'บ้าน' is set on object 'Object Repository/Register_Page/input_ADDRESS_ALL'
+
+2560-09-10 15:41:20 - [MESSAGE][PASSED] - Text 'บ้าน' is set on object 'Object Repository/Register_Page/input_ADDRESS_ALL'
+
+2560-09-10 15:41:20 - [TEST_STEP][PASSED] - setText: Text '053354121' is set on object 'Object Repository/Register_Page/input_PHONE'
+
+2560-09-10 15:41:21 - [MESSAGE][PASSED] - Text '053354121' is set on object 'Object Repository/Register_Page/input_PHONE'
+
+2560-09-10 15:41:21 - [TEST_STEP][PASSED] - setText: Text '0901255710' is set on object 'Object Repository/Register_Page/input_CELL_PHONE'
+
+2560-09-10 15:41:21 - [MESSAGE][PASSED] - Text '0901255710' is set on object 'Object Repository/Register_Page/input_CELL_PHONE'
+
+2560-09-10 15:41:21 - [TEST_STEP][PASSED] - setText: Text '085532111' is set on object 'Object Repository/Register_Page/input_FAX'
+
+2560-09-10 15:41:21 - [MESSAGE][PASSED] - Text '085532111' is set on object 'Object Repository/Register_Page/input_FAX'
+
+2560-09-10 15:41:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Button/register_submit_btn' is clicked on
+
+2560-09-10 15:41:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Button/register_submit_btn' is clicked on
+
+2560-09-10 15:41:25 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2560-09-10 15:41:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2560-09-10 15:41:25 - [TEST_STEP][PASSED] - Statement - registerMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Register_Page/message_REGISTER_COMPLETE)): Text of object 'Object Repository/Register_Page/message_REGISTER_COMPLETE' is: 'ขอบคุณสำหรับการลงทะเบียนโปรดตรวจสอบที่อีเมลของท่านเพื่อทำการระบุตัวตน'
+
+2560-09-10 15:41:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/Register_Page/message_REGISTER_COMPLETE' is: 'ขอบคุณสำหรับการลงทะเบียนโปรดตรวจสอบที่อีเมลของท่านเพื่อทำการระบุตัวตน'
+
+2560-09-10 15:41:25 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'ขอบคุณสำหรับการลงทะเบียนโปรดตรวจสอบที่อีเมลของท่านเพื่อทำการระบุตัวตน' and expected text 'ขอบคุณสำหรับการลงทะเบียนโปรดตรวจสอบที่อีเมลของท่านเพื่อทำการระบุตัวตน' are matched 
+
+2560-09-10 15:41:25 - [MESSAGE][PASSED] - Actual text 'ขอบคุณสำหรับการลงทะเบียนโปรดตรวจสอบที่อีเมลของท่านเพื่อทำการระบุตัวตน' and expected text 'ขอบคุณสำหรับการลงทะเบียนโปรดตรวจสอบที่อีเมลของท่านเพื่อทำการระบุตัวตน' are matched 
+
+2560-09-10 15:41:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Register_Page/link_Register_Page' is clicked on
+
+2560-09-10 15:41:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Register_Page/link_Register_Page' is clicked on
+
+2560-09-10 15:41:25 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2560-09-10 15:41:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2560-09-10 15:41:26 - [TEST_STEP][PASSED] - setText: Text 'gcsiLxKXRJ@gmail.com' is set on object 'Object Repository/Register_Page/input_EMAIL'
+
+2560-09-10 15:41:26 - [MESSAGE][PASSED] - Text 'gcsiLxKXRJ@gmail.com' is set on object 'Object Repository/Register_Page/input_EMAIL'
+
+2560-09-10 15:41:26 - [TEST_STEP][PASSED] - setText: Text 'gcsiLxKXRJ' is set on object 'Object Repository/Register_Page/input_PASSWORD'
+
+2560-09-10 15:41:26 - [MESSAGE][PASSED] - Text 'gcsiLxKXRJ' is set on object 'Object Repository/Register_Page/input_PASSWORD'
+
+2560-09-10 15:41:26 - [TEST_STEP][PASSED] - setText: Text 'gcsiLxKXRJ' is set on object 'Object Repository/Register_Page/input_PASSWORD_CONFIRMATION'
+
+2560-09-10 15:41:27 - [MESSAGE][PASSED] - Text 'gcsiLxKXRJ' is set on object 'Object Repository/Register_Page/input_PASSWORD_CONFIRMATION'
+
+2560-09-10 15:41:27 - [TEST_STEP][PASSED] - setText: Text 'รันจวน' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_TH'
+
+2560-09-10 15:41:27 - [MESSAGE][PASSED] - Text 'รันจวน' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_TH'
+
+2560-09-10 15:41:27 - [TEST_STEP][PASSED] - setText: Text 'หอมหวน' is set on object 'Object Repository/Register_Page/input_LAST_NAME_TH'
+
+2560-09-10 15:41:27 - [MESSAGE][PASSED] - Text 'หอมหวน' is set on object 'Object Repository/Register_Page/input_LAST_NAME_TH'
+
+2560-09-10 15:41:27 - [TEST_STEP][PASSED] - setText: Text 'gcsiLxKXRJ' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_EN'
+
+2560-09-10 15:41:27 - [MESSAGE][PASSED] - Text 'gcsiLxKXRJ' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_EN'
+
+2560-09-10 15:41:27 - [TEST_STEP][PASSED] - setText: Text 'gcsiLxKXRJ' is set on object 'Object Repository/Register_Page/input_LAST_NAME_EN'
+
+2560-09-10 15:41:28 - [MESSAGE][PASSED] - Text 'gcsiLxKXRJ' is set on object 'Object Repository/Register_Page/input_LAST_NAME_EN'
+
+2560-09-10 15:41:28 - [TEST_STEP][PASSED] - setText: Text '4331182487238' is set on object 'Object Repository/Register_Page/input_CITIZEN_ID'
+
+2560-09-10 15:41:28 - [MESSAGE][PASSED] - Text '4331182487238' is set on object 'Object Repository/Register_Page/input_CITIZEN_ID'
+
+2560-09-10 15:41:28 - [TEST_STEP][PASSED] - setText: Text '25/09/1991' is set on object 'Object Repository/Register_Page/input_BIRTH_DATE'
+
+2560-09-10 15:41:28 - [MESSAGE][PASSED] - Text '25/09/1991' is set on object 'Object Repository/Register_Page/input_BIRTH_DATE'
+
+2560-09-10 15:41:28 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'พุทธ' are selected in object 'Object Repository/Register_Page/select_RELIGION'  using regular expression
+
+2560-09-10 15:41:29 - [MESSAGE][PASSED] - All options with value 'พุทธ' are selected in object 'Object Repository/Register_Page/select_RELIGION'  using regular expression
+
+2560-09-10 15:41:29 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'ปริญญาตรี' are selected in object 'Object Repository/Register_Page/select_EDUCATIONAL'  using regular expression
+
+2560-09-10 15:41:29 - [MESSAGE][PASSED] - All options with value 'ปริญญาตรี' are selected in object 'Object Repository/Register_Page/select_EDUCATIONAL'  using regular expression
+
+2560-09-10 15:41:29 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'รับราชการ' are selected in object 'Object Repository/Register_Page/select_CAREER'  using regular expression
+
+2560-09-10 15:41:29 - [MESSAGE][PASSED] - All options with value 'รับราชการ' are selected in object 'Object Repository/Register_Page/select_CAREER'  using regular expression
+
+2560-09-10 15:41:29 - [TEST_STEP][PASSED] - setText: Text '149/6' is set on object 'Object Repository/Register_Page/input_ADDRESS_NO'
+
+2560-09-10 15:41:30 - [MESSAGE][PASSED] - Text '149/6' is set on object 'Object Repository/Register_Page/input_ADDRESS_NO'
+
+2560-09-10 15:41:30 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Register_Page/input_ADDRESS_MOO'
+
+2560-09-10 15:41:30 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Register_Page/input_ADDRESS_MOO'
+
+2560-09-10 15:41:30 - [TEST_STEP][PASSED] - setText: Text 'สันทรายพร้าว' is set on object 'Object Repository/Register_Page/input_ADDRESS_ROAD'
+
+2560-09-10 15:41:30 - [MESSAGE][PASSED] - Text 'สันทรายพร้าว' is set on object 'Object Repository/Register_Page/input_ADDRESS_ROAD'
+
+2560-09-10 15:41:30 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '38' are selected in object 'Object Repository/Register_Page/select_ADDRESS_PROVINCE'  using regular expression
+
+2560-09-10 15:41:32 - [MESSAGE][PASSED] - All options with value '38' are selected in object 'Object Repository/Register_Page/select_ADDRESS_PROVINCE'  using regular expression
+
+2560-09-10 15:41:32 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '581' are selected in object 'Object Repository/Register_Page/select_ADDRESS_DISTRICT'  using regular expression
+
+2560-09-10 15:41:33 - [MESSAGE][PASSED] - All options with value '581' are selected in object 'Object Repository/Register_Page/select_ADDRESS_DISTRICT'  using regular expression
+
+2560-09-10 15:41:33 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '14039' are selected in object 'Object Repository/Register_Page/select_ADDRESS_SUBDISTRICT'  using regular expression
+
+2560-09-10 15:41:33 - [MESSAGE][PASSED] - All options with value '14039' are selected in object 'Object Repository/Register_Page/select_ADDRESS_SUBDISTRICT'  using regular expression
+
+2560-09-10 15:41:33 - [TEST_STEP][PASSED] - setText: Text '50210' is set on object 'Object Repository/Register_Page/input_ADDRESS_POSTCODE'
+
+2560-09-10 15:41:34 - [MESSAGE][PASSED] - Text '50210' is set on object 'Object Repository/Register_Page/input_ADDRESS_POSTCODE'
+
+2560-09-10 15:41:34 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'กำลังทำงาน' are selected in object 'Object Repository/Register_Page/select_STATUS_EDU_WORK'  using regular expression
+
+2560-09-10 15:41:34 - [MESSAGE][PASSED] - All options with value 'กำลังทำงาน' are selected in object 'Object Repository/Register_Page/select_STATUS_EDU_WORK'  using regular expression
+
+2560-09-10 15:41:34 - [TEST_STEP][PASSED] - setText: Text 'บ้าน' is set on object 'Object Repository/Register_Page/input_ADDRESS_ALL'
+
+2560-09-10 15:41:34 - [MESSAGE][PASSED] - Text 'บ้าน' is set on object 'Object Repository/Register_Page/input_ADDRESS_ALL'
+
+2560-09-10 15:41:34 - [TEST_STEP][PASSED] - setText: Text '053354121' is set on object 'Object Repository/Register_Page/input_PHONE'
+
+2560-09-10 15:41:35 - [MESSAGE][PASSED] - Text '053354121' is set on object 'Object Repository/Register_Page/input_PHONE'
+
+2560-09-10 15:41:35 - [TEST_STEP][PASSED] - setText: Text '0901255710' is set on object 'Object Repository/Register_Page/input_CELL_PHONE'
+
+2560-09-10 15:41:35 - [MESSAGE][PASSED] - Text '0901255710' is set on object 'Object Repository/Register_Page/input_CELL_PHONE'
+
+2560-09-10 15:41:35 - [TEST_STEP][PASSED] - setText: Text '085532111' is set on object 'Object Repository/Register_Page/input_FAX'
+
+2560-09-10 15:41:35 - [MESSAGE][PASSED] - Text '085532111' is set on object 'Object Repository/Register_Page/input_FAX'
+
+2560-09-10 15:41:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Button/register_submit_btn' is clicked on
+
+2560-09-10 15:41:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Button/register_submit_btn' is clicked on
+
+2560-09-10 15:41:36 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2560-09-10 15:41:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2560-09-10 15:41:36 - [TEST_STEP][PASSED] - Statement - alreadyIdCardMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_Already_IdCard)): Text of object 'Object Repository/Check_Validate_Register/vaildate_message_Already_IdCard' is: 'เลขบัตรประชาชนนี้ถูกใช้งานไปแล้ว'
+
+2560-09-10 15:41:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Check_Validate_Register/vaildate_message_Already_IdCard' is: 'เลขบัตรประชาชนนี้ถูกใช้งานไปแล้ว'
+
+2560-09-10 15:41:36 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'เลขบัตรประชาชนนี้ถูกใช้งานไปแล้ว' and expected text 'เลขบัตรประชาชนนี้ถูกใช้งานไปแล้ว' are matched 
+
+2560-09-10 15:41:36 - [MESSAGE][PASSED] - Actual text 'เลขบัตรประชาชนนี้ถูกใช้งานไปแล้ว' and expected text 'เลขบัตรประชาชนนี้ถูกใช้งานไปแล้ว' are matched 
+
+2560-09-10 15:41:36 - [TEST_STEP][PASSED] - Statement - alreadyEmailMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Check_Validate_Register/vaildate_message_Already_Email)): Text of object 'Object Repository/Check_Validate_Register/vaildate_message_Already_Email' is: 'อีเมลนี้ถูกใช้งานไปแล้ว'
+
+2560-09-10 15:41:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Check_Validate_Register/vaildate_message_Already_Email' is: 'อีเมลนี้ถูกใช้งานไปแล้ว'
+
+2560-09-10 15:41:37 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'อีเมลนี้ถูกใช้งานไปแล้ว' and expected text 'อีเมลนี้ถูกใช้งานไปแล้ว' are matched 
+
+2560-09-10 15:41:37 - [MESSAGE][PASSED] - Actual text 'อีเมลนี้ถูกใช้งานไปแล้ว' and expected text 'อีเมลนี้ถูกใช้งานไปแล้ว' are matched 
+
+2560-09-10 15:41:37 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2560-09-10 15:41:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2560-09-10 15:40:20 - [TEST_SUITE][PASSED] - Register: Test Cases/Register/Register_Repeat]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

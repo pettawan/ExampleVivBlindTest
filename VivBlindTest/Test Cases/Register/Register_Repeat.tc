@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Used to register for volunteers.
+Take a look at the re-registration.</description>
+   <name>Register_Repeat</name>
+   <tag>Register</tag>
+   <comment></comment>
+   <testCaseGuid>2e6592db-a7f6-421d-b5eb-4faa859c5f92</testCaseGuid>
+</TestCaseEntity>

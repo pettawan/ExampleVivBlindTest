@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="24" tests="2" failures="0" errors="0">
+   <testsuite name="Login" tests="2" failures="0" errors="0" time="24" timestamp="2560-09-10 15:38:31" hostname="Moo - DESKTOP-K1TVTC0" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Moo\\Katalon Studio\\VivBlindTest\\Reports\\Login\\25600910_153828"/>
+         <property name="logFiles" value="C:\\Users\\Moo\\Katalon Studio\\VivBlindTest\\Reports\\Login\\25600910_153828\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Moo - DESKTOP-K1TVTC0"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 60.0.3112.113"/>
+         <property name="hostAddress" value="192.168.1.41"/>
+         <property name="sessionId" value="f3ff42806ff55a9f29d848ca0ccd4825"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login_Success" classname="Test Cases/Login/Login_Success" status="PASSED">
+         <system-out><![CDATA[2560-09-10 15:38:31 - [TEST_CASE][PASSED] - Test Cases/Login/Login_Success: Test Cases/Login/Login_Success
+
+2560-09-10 15:38:33 - [TEST_STEP][PASSED] - Statement - username = "pettawan09@gmail.com": null
+
+2560-09-10 15:38:33 - [TEST_STEP][PASSED] - Statement - password = "123456789": null
+
+2560-09-10 15:38:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2560-09-10 15:38:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2560-09-10 15:38:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://vivblind.play2pay.me/' successfully
+
+2560-09-10 15:38:41 - [MESSAGE][PASSED] - Navigate to 'http://vivblind.play2pay.me/' successfully
+
+2560-09-10 15:38:41 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2560-09-10 15:38:42 - [MESSAGE][PASSED] - Current window maximized
+
+2560-09-10 15:38:42 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2560-09-10 15:38:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2560-09-10 15:38:42 - [TEST_STEP][PASSED] - setText: Text 'pettawan09@gmail.com' is set on object 'Object Repository/Login_Page/input_EMAIL'
+
+2560-09-10 15:38:43 - [MESSAGE][PASSED] - Text 'pettawan09@gmail.com' is set on object 'Object Repository/Login_Page/input_EMAIL'
+
+2560-09-10 15:38:43 - [TEST_STEP][PASSED] - setText: Text '123456789' is set on object 'Object Repository/Login_Page/input_password'
+
+2560-09-10 15:38:43 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/Login_Page/input_password'
+
+2560-09-10 15:38:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Button/login_submit_btn' is clicked on
+
+2560-09-10 15:38:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Button/login_submit_btn' is clicked on
+
+2560-09-10 15:38:44 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2560-09-10 15:38:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2560-09-10 15:38:44 - [TEST_STEP][PASSED] - Statement - checklogin = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Home_Page/link_logout)): Text of object 'Object Repository/Home_Page/link_logout' is: 'ออกจากระบบ'
+
+2560-09-10 15:38:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/Home_Page/link_logout' is: 'ออกจากระบบ'
+
+2560-09-10 15:38:44 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'ออกจากระบบ' and expected text 'ออกจากระบบ' are matched 
+
+2560-09-10 15:38:44 - [MESSAGE][PASSED] - Actual text 'ออกจากระบบ' and expected text 'ออกจากระบบ' are matched 
+
+2560-09-10 15:38:44 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2560-09-10 15:38:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login_UnSuccess" classname="Test Cases/Login/Login_UnSuccess" status="PASSED">
+         <system-out><![CDATA[2560-09-10 15:38:45 - [TEST_CASE][PASSED] - Test Cases/Login/Login_UnSuccess: Test Cases/Login/Login_UnSuccess
+
+2560-09-10 15:38:46 - [TEST_STEP][PASSED] - Statement - username = "pettawan09@gmail.com": null
+
+2560-09-10 15:38:46 - [TEST_STEP][PASSED] - Statement - password = "987654321": null
+
+2560-09-10 15:38:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2560-09-10 15:38:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2560-09-10 15:38:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://vivblind.play2pay.me/' successfully
+
+2560-09-10 15:38:51 - [MESSAGE][PASSED] - Navigate to 'http://vivblind.play2pay.me/' successfully
+
+2560-09-10 15:38:51 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2560-09-10 15:38:52 - [MESSAGE][PASSED] - Current window maximized
+
+2560-09-10 15:38:52 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2560-09-10 15:38:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2560-09-10 15:38:52 - [TEST_STEP][PASSED] - setText: Text 'pettawan09@gmail.com' is set on object 'Object Repository/Login_Page/input_EMAIL'
+
+2560-09-10 15:38:52 - [MESSAGE][PASSED] - Text 'pettawan09@gmail.com' is set on object 'Object Repository/Login_Page/input_EMAIL'
+
+2560-09-10 15:38:52 - [TEST_STEP][PASSED] - setText: Text '987654321' is set on object 'Object Repository/Login_Page/input_password'
+
+2560-09-10 15:38:53 - [MESSAGE][PASSED] - Text '987654321' is set on object 'Object Repository/Login_Page/input_password'
+
+2560-09-10 15:38:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Button/login_submit_btn' is clicked on
+
+2560-09-10 15:38:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Button/login_submit_btn' is clicked on
+
+2560-09-10 15:38:53 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2560-09-10 15:38:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2560-09-10 15:38:54 - [TEST_STEP][PASSED] - Statement - checklogin = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login_Page/strong_Warning_Message)): Text of object 'Object Repository/Login_Page/strong_Warning_Message' is: 'กรุณากรอก รหัสสมาชิก หรือ รหัสผ่านให้ถูกต้อง'
+
+2560-09-10 15:38:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/Login_Page/strong_Warning_Message' is: 'กรุณากรอก รหัสสมาชิก หรือ รหัสผ่านให้ถูกต้อง'
+
+2560-09-10 15:38:54 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'กรุณากรอก รหัสสมาชิก หรือ รหัสผ่านให้ถูกต้อง' and expected text 'กรุณากรอก รหัสสมาชิก หรือ รหัสผ่านให้ถูกต้อง' are matched 
+
+2560-09-10 15:38:54 - [MESSAGE][PASSED] - Actual text 'กรุณากรอก รหัสสมาชิก หรือ รหัสผ่านให้ถูกต้อง' and expected text 'กรุณากรอก รหัสสมาชิก หรือ รหัสผ่านให้ถูกต้อง' are matched 
+
+2560-09-10 15:38:54 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2560-09-10 15:38:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2560-09-10 15:38:31 - [TEST_SUITE][PASSED] - Login: Test Cases/Login/Login_UnSuccess]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

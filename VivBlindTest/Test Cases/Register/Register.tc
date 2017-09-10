@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Used to register for volunteers.</description>
+   <name>Register</name>
+   <tag>Register</tag>
+   <comment></comment>
+   <testCaseGuid>bf878089-345b-4b26-94b7-b3d2655a5336</testCaseGuid>
+</TestCaseEntity>
